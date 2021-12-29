@@ -3,7 +3,8 @@
 - hosts: all
   become: true
   tasks:
-  - name: update repository index
+
+    - name: update repository index
     yum:
       update_cache: yes
 
